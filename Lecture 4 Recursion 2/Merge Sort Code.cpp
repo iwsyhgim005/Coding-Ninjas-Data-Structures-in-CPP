@@ -1,26 +1,30 @@
 /*
-Remove Duplicates Recursively
+Merge Sort Code
 
-Given a string S, remove consecutive duplicates from it recursively.
+Sort an array A using Merge Sort.
+Change in the input array itself. So no need to return or print anything.
 
-Input Format :
-	String S
-Output Format :
-	Output string
-
+Input format :
+	Line 1 : Integer n i.e. Array size
+	Line 2 : Array elements (separated by space)
+	
+Output format :
+	Array elements in increasing order (separated by space)
+	
 Constraints :
-	1 <= |S| <= 10^3
-	where |S| represents the length of string
-
+	1 <= n <= 10^3
+	
 Sample Input 1 :
-	aabccba
+	6 
+	2 6 8 5 4 3
 Sample Output 1 :
-	abcba
-
+	2 3 4 5 6 8
+	
 Sample Input 2 :
-	xxxyyyzwwzzz
+	5
+	2 1 5 2 3
 Sample Output 2 :
-	xyzwz
+	1 2 2 3 5 
 
 */
 
